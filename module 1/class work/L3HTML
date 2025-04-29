@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hyperlink</title>
+</head>
+<body>
+
+<h1>hyperlink</h1>
+<p>for infinite knowledge,click<a href="https://www.wikipedia.org/">here</a></p>
+<!--ordered list-->
+<ol>
+    <li>buy the food</li>
+    <li>cook the food</li>
+    <li>eat the food</li>
+</ol>
+<ul>
+    <li>buy the food</li>
+    <li>cook the food</li>
+    <li>eat the food</li>
+</ul>
+<h1>defintion</h1>
+<dl>
+    <dt>defintion</dt>
+    <dd>defintion unknown</dd>
+    <dt>contact us</dt>
+</dl>
+<!--table-->
+<table>
+    <thead>
+        <tr>
+            <th>language</th>
+            <th>creator</th>
+            <th> year</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>python</td>
+        <td>guido van </td>
+        <td>1991</td>
+    </tr>
+    <tr>
+        <td>java script</td>
+        <td>  brendon eich</td>
+        <td>1995</td>
+</tr>
+<tr>
+    <td>java</td>
+    <td> james ghosling</td>
+    <td>1995</td>
+</tr>
+    </tbody>
+</table>
