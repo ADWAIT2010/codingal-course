@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>join and pop</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p id="demo join"></p>
+        <p id="demo pop"></p>
+        <script>
+            var fruits =["banana","Mango","apple","orange"];
+            document.getElementById("demo").innerHTML = fruits;
+            document.getElementById("demo join").innerHTML = fruits.join("*");
+            fruits.pop();
+            document.getElementById("demo pop").innerHTML = fruits;
+             fruits.push("jackfruit");
+            document.write(fruits);
+
+
+
+        </script>
+    </body>
+</html>

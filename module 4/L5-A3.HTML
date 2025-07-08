@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>function inside a function</title>
+
+    </head>
+    <body>
+        <h1>function inside a function</h1>
+        <p id="demo"></p>
+        <script>
+            function add(a,b){
+            return a + b;
+            }
+             function average(a,b){
+            return add(a,b)/2;
+            }
+            let result= average(10,20);
+            document.getElementById("demo").innerHTML= result
+        </script>
+    </body>
+</html>
